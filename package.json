@@ -1,0 +1,25 @@
+{
+  "name": "ppiatividade-2",
+  "version": "1.0.0",
+  "description": "Backend da Aplicação Web",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PamilaDelatorre/PPIAtividade3.git"
+  },
+  "author": "Pamila Delatorre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PamilaDelatorre/PPIAtividade3/issues"
+  },
+  "homepage": "https://github.com/PamilaDelatorre/PPIAtividade3#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql2": "^3.11.0"
+  }
+}
