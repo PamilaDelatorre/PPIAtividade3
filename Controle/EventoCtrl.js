@@ -93,7 +93,6 @@ export default class EventoCtrl{
     //reponsável por processar requisições HTTP do tipo DELETE
     excluir(req, resp){
         if(req.method == 'DELETE'){
-            const dados = req.body;
             const codigo = req.params.codigo;
 
             if(codigo){
